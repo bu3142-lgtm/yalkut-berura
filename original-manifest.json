@@ -1,11 +1,12 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "93e757a330448d3057da5299b6ff3c7eb8033b7a",
- "original_commit_date": "2026-11-05T17:49:06+02:00",
+ "original_commit": "75e81a48100095ff7062901d8892daea566176b8",
+ "original_commit_date": "2026-11-05T21:21:48+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
   "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
   "content10.json": "5235a8f30b6bdb5d2e045d770af1293e47fd3c083bfeef18f42cd2004c494b81",
+  "content100.json": "91dbbc57d505f205c1d38e4af26ac77186298ab319c0a65dfcffdb877fcf26ad",
   "content11.json": "ef55a979501a9f4b0848daa8b5a0240df2116bb03a27fa3400fdc318d1ae98b8",
   "content114.json": "032a247fe3b7ee2a1236c1d1deea1afea0c83308b3ba34b43dc930bea4e2e361",
   "content115.json": "d1f088a59aff14d3a0ace58f196ae582c782faa0fd66f41e10ee914bf5dabc82",
@@ -207,10 +208,14 @@
   "content92.json": "ab48511ddf3990d149cb47bd1d58987881248e7ee7f6416d143178caa9b888d1",
   "content93.json": "29e3fbcdc9b30e76b2ae78aa01b9691be026e55719f5556fe5fb6f321d132218",
   "content94.json": "8f1518442b85eb292cbc255ee7e5371c41c6b8ecf73388db003587168545af3b",
-  "content95.json": "4d87699f6e5b852eb9902f1a63c6480b109b8c2604f13329091fbfa9e888e8f3"
+  "content95.json": "4d87699f6e5b852eb9902f1a63c6480b109b8c2604f13329091fbfa9e888e8f3",
+  "content96.json": "2bb9816fbd8bb26377f54bb8b59b35f2979c3f3d7f8afb6983c8ff3d4ea4a3b4",
+  "content97.json": "42b81cf7601acefc50a07f546820c47c6f1b42b8524890cdd31be39cab975b84",
+  "content98.json": "6a17b1be2e3f5a4a9feabcb595af6b6087e95b94913dd89ff36d030956797ece",
+  "content99.json": "32281afc8e3b132b24df30b2f74063d2a5d57dd375c7607d4b7cdd7b4e984647"
  },
  "code": {
-  "app.js": "440cb36087dc269d0e8b846c021cff215d8ca80dedc5d8602ffda34e3d69153e",
+  "app.js": "81ace0efe2fe4d45bed7c9c84e75a31e3f1a9833ab79c38ce4586237f6234eb6",
   "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
   "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
   "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
