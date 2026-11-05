@@ -1,0 +1,12 @@
+Russian hyphenation patterns, unmodified.
+Source: Chromium's copy of the Russian TeX / LibreOffice hyphenation dictionary.
+https://chromium.googlesource.com/chromium/src/+/main/third_party/hyphenation-patterns/src/ru/hyph-ru.pat.txt
+Source Git blob: a40dea898319fb2767fe7d18975aaf8222079a68
+Pattern count: 3874. Retrieved 2026-10-27.
+Author of dictionary conversion: Peter Novodvorsky <nidd@altlinux.ru>.
+License: GNU LGPL 2.1, reproduced in LICENSE.txt.
+
+The site bundles these unmodified patterns as a string in ru-hyphenation.js
+and applies Liang's pattern-matching algorithm. It inserts discretionary
+soft hyphens in the mobile reading view. Original chapter data and downloads
+are unchanged. The unmodified pattern source is provided alongside the asset.
