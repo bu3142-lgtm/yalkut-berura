@@ -108,12 +108,14 @@ async function setupYalkut(chapter){
     if(want)setLayer('yj',false);
   }catch{/* слоя нет или нет соединения: сайт работает как обычно */}
 }
+function yjTitle(b){const t=(b.title||'').trim();if(b.kind==='combined')return t;return /^[,;]/.test(t)?`Глава ${b.number}${t}`:t}
+function yjShared(b){if(b.kind!=='combined'||!b.sims||b.sims.length<2)return '';const s=b.sims;const range=s.every((x,i)=>i===0||x===s[i-1]+1);return `Общий раздел к главам ${range?s[0]+'–'+s.at(-1):s.join(', ')}`}
 function yjParaHTML(p,bi){return p.html.replace(/<span class="yn" data-y="(\d+)">(.*?)<\/span>/gs,(_,k,t)=>`<button class="yn" data-block="${bi}" data-y="${k}" aria-label="Сноска Ялкут Йосеф ${k}">${t}<sup>${k}</sup></button>`)}
 function renderYalkut(){
   const root=$('#yalkutPage');if(!yj.blocks.length){root.innerHTML='';return}
   const np=yj.blocks.reduce((n,b)=>n+b.paragraphs.length,0);
   root.innerHTML=`<div class="yj-head"><span class="yj-eyebrow">ЯЛКУТ ЙОСЕФ · ГЛАВА ${yj.chapter}</span><p class="yj-note">Отдельный слой: законы и сноски книги «Ялкут Йосеф». Это не текст Мишны Бруры.</p><p class="yj-meta">${np} ${plural(np,'пункт','пункта','пунктов')} · ${yj.notes.length} ${plural(yj.notes.length,'сноска','сноски','сносок')}</p></div>`+
-  yj.blocks.map((b,bi)=>`<section class="yj-block">${yj.blocks.length>1||b.title?`<h2 class="yj-title">${escapeHTML(b.title)}</h2>`:''}${b.description?`<p class="yj-desc">${escapeHTML(b.description)}</p>`:''}${b.paragraphs.map(p=>`<p class="yj-para" id="yj-${bi}-${p.n}">${yjParaHTML(p,bi)}</p>`).join('')}</section>`).join('');
+  yj.blocks.map((b,bi)=>`<section class="yj-block">${yjTitle(b)?`<h2 class="yj-title">${escapeHTML(yjTitle(b))}</h2>`:''}${yjShared(b)?`<p class="yj-shared">${escapeHTML(yjShared(b))}</p>`:''}${b.description?`<p class="yj-desc">${escapeHTML(b.description)}</p>`:''}${b.paragraphs.map((p,pi)=>`<p class="yj-para" id="yj-${bi}-${pi}">${yjParaHTML(p,bi)}</p>`).join('')}</section>`).join('');
   if(mobileReading.matches&&typeof RussianHyphenation!=='undefined'){const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const ts=[];while(w.nextNode())ts.push(w.currentNode);ts.forEach(t=>{t.data=RussianHyphenation.text(t.data)})}
 }
 function setLayer(layer,push=true){
@@ -133,7 +135,7 @@ function openYalkutNote(k,bi){
 }
 function goToYalkutNote(){const n=yj.notes[yj.cur];if(!n)return;$('#yalkutDialog').close();const t=document.querySelector(`.yn[data-block="${n.block}"][data-y="${n.i}"]`);if(t){t.scrollIntoView({behavior:'smooth',block:'center'});t.classList.add('show-flash');setTimeout(()=>t.classList.remove('show-flash'),2200)}}
 function yjPrintHTML(){
-  const notes=[];const body=yj.blocks.map((b,bi)=>`<h3 class="yj-title">${escapeHTML(b.title)}</h3>${b.paragraphs.map(p=>`<p class="yj-para">${p.html.replace(/<span class="yn" data-y="(\d+)">(.*?)<\/span>/gs,(_,k,t)=>{notes.push(b.notes[Number(k)-1]);return `${t}<sup class="yj-sup">${notes.length}</sup>`})}</p>`).join('')}`).join('');
+  const notes=[];const body=yj.blocks.map((b,bi)=>`<h3 class="yj-title">${escapeHTML(yjTitle(b))}</h3>${b.paragraphs.map(p=>`<p class="yj-para">${p.html.replace(/<span class="yn" data-y="(\d+)">(.*?)<\/span>/gs,(_,k,t)=>{notes.push(b.notes[Number(k)-1]);return `${t}<sup class="yj-sup">${notes.length}</sup>`})}</p>`).join('')}`).join('');
   return `<section class="print-yalkut"><h2 class="commentary-heading">Ялкут Йосеф · Глава ${yj.chapter}</h2>${body}<h3 class="yj-title">Сноски Ялкут Йосеф</h3><ol class="yj-notes">${notes.map(t=>`<li>${escapeHTML(t)}</li>`).join('')}</ol></section>`
 }
 document.addEventListener('click',e=>{

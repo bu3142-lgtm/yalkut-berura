@@ -83,3 +83,5 @@ button.yn sup{font:600 .55em UISans,Arial,sans-serif;color:var(--sage);margin-le
 .yalkut-dialog .comment-navigation button:not(:disabled){color:var(--sage)}
 #yalkutPrintBox{border-color:#cdd5c8}
 @media print{#printRoot .print-yalkut{break-before:page}#printRoot .yj-title{font:12pt BookSerif;color:black;margin:5mm 0 2mm}#printRoot .yj-para{font:10.5pt/1.5 BookSerif;margin:0 0 2.5mm;text-align:left;color:black}#printRoot .yj-para strong{color:black}#printRoot .yj-sup{font-size:7.5pt;color:black;vertical-align:super;line-height:0}#printRoot .yj-notes{font:9pt/1.45 BookSerif;column-count:2;column-gap:8mm;padding-left:5mm}#printRoot .yj-notes li{margin:0 0 1.5mm;break-inside:avoid}}
+
+.yj-shared{font:11px UISans,Arial,sans-serif;letter-spacing:.5px;color:var(--sage);margin:-2px 0 8px}

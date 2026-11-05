@@ -7,3 +7,6 @@
 - `yalkut/index.json` — какие блоки «Ялкут Йосеф» относятся к какой главе; `yalkut/<id>.json` — сами блоки.
 - `original-manifest.json` — версия оригинала и контрольные суммы глав (для команды «обнови»).
 - `tools/build_yalkut.py` — перенос блоков из yalkutIosef_all.html с проверкой; `docs/` — таблицы соответствия глав.
+
+Слой «Ялкут Йосеф»: 155 глав сайта, 217 блоков, 3649 абзацев, 2185 сносок (отчёт сверки — `docs/3_transfer_report.csv`).
+Перегенерация: `python3 tools/build_all.py <yalkutIosef_all.html> .`; проверки: `tools/check_layers.py`, `tools/check_menu.py` (нужен локальный сервер и Playwright).
