@@ -85,3 +85,5 @@ button.yn sup{font:600 .55em UISans,Arial,sans-serif;color:var(--sage);margin-le
 @media print{#printRoot .print-yalkut{break-before:page}#printRoot .yj-title{font:12pt BookSerif;color:black;margin:5mm 0 2mm}#printRoot .yj-para{font:10.5pt/1.5 BookSerif;margin:0 0 2.5mm;text-align:left;color:black}#printRoot .yj-para strong{color:black}#printRoot .yj-sup{font-size:7.5pt;color:black;vertical-align:super;line-height:0}#printRoot .yj-notes{font:9pt/1.45 BookSerif;column-count:2;column-gap:8mm;padding-left:5mm}#printRoot .yj-notes li{margin:0 0 1.5mm;break-inside:avoid}}
 
 .yj-shared{font:11px UISans,Arial,sans-serif;letter-spacing:.5px;color:var(--sage);margin:-2px 0 8px}
+
+.home-title-block p.home-yj{margin-top:14px;padding:6px 14px;border:1px solid var(--sage);border-radius:999px;background:rgba(238,241,234,.85);color:var(--sage);font:11px UISans,Arial,sans-serif;letter-spacing:1.2px;text-transform:none;display:inline-block}
