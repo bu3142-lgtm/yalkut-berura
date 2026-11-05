@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Ялкут Йосеф"><meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css?v=204">
+  <link rel="stylesheet" href="style.css?v=205">
 </head>
 <body>
 <aside class="sidebar" id="sidebar" aria-label="Навигация по книге" tabindex="0">
@@ -48,12 +48,8 @@
   <header class="topbar"><button class="icon-button mobile-menu" id="menuBtn" aria-label="Открыть оглавление">☰</button><button class="back-btn" id="backBtn" type="button" aria-label="Назад" hidden><span aria-hidden="true">←</span> Назад</button><div class="crumb">Орах хаим<span>/</span><b id="chapterSection">Русское издание</b><span id="chapterCrumbDivider" hidden>/</span><b id="chapterCrumb" hidden></b></div><span class="bsd" dir="rtl" lang="he">בס״ד</span></header>
   <main id="main" class="home-active">
     <section id="homePage" class="home-page" aria-labelledby="homeTitle">
-      <div class="home-portrait">
-        <div class="home-title-block">
-          <h1 id="homeTitle">Мишна Брура</h1>
-          <p>Ицхак Коэн</p>
-          <p class="home-yj">со сносками «Ялкут Йосеф»</p>
-        </div>
+      <div class="home-portrait home-cover"><img src="home-cover.jpg" alt="Мишна Брура со сносками «Ялкут Йосеф». Ицхак Коэн" width="941" height="1672" fetchpriority="high">
+        <h1 id="homeTitle" class="sr-only">Мишна Брура со сносками «Ялкут Йосеф»</h1>
       </div>
     </section>
     <div id="chapterPage" hidden>
@@ -76,6 +72,6 @@
 <div id="toast" role="status" class="toast" hidden></div>
 <div id="printRoot"></div>
 <script src="ru-hyphenation.js" defer></script>
-<script src="app.js?v=204" defer></script>
+<script src="app.js?v=205" defer></script>
 </body>
 </html>
