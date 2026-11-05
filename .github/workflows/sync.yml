@@ -1,0 +1,51 @@
+name: Синхронизация с оригиналом и слой Ялкут Йосеф
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # каждые 30 минут
+  workflow_dispatch:         # кнопка «Run workflow» вручную
+  push:
+    paths:
+      - 'source/yalkutIosef_all.html'   # заменили файл Ялкута — слой пересоберётся
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: site
+      - name: Оригинал (только чтение)
+        uses: actions/checkout@v4
+        with:
+          repository: bu3142-lgtm/mishna-berura
+          path: orig
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Перенос глав и меню из оригинала
+        run: python3 -I site/tools/sync.py orig site
+      - name: Слой «Ялкут Йосеф»
+        run: python3 -I site/tools/build_all.py site/source/yalkutIosef_all.html site
+      - name: Проверки, версия кэша, отчёт
+        run: python3 -I site/tools/finish.py site | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Публикация (только если что-то изменилось)
+        working-directory: site
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Автосинхронизация с оригиналом (оригинал: $(git -C ../orig rev-parse --short HEAD))"
+            git push
+          else
+            echo "Изменений нет."
+          fi

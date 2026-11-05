@@ -208,5 +208,19 @@
   "content93.json": "29e3fbcdc9b30e76b2ae78aa01b9691be026e55719f5556fe5fb6f321d132218",
   "content94.json": "8f1518442b85eb292cbc255ee7e5371c41c6b8ecf73388db003587168545af3b",
   "content95.json": "4d87699f6e5b852eb9902f1a63c6480b109b8c2604f13329091fbfa9e888e8f3"
+ },
+ "code": {
+  "app.js": "440cb36087dc269d0e8b846c021cff215d8ca80dedc5d8602ffda34e3d69153e",
+  "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+  "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+  "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
+  "hyphenation/LICENSE.txt": "86f5a582d84b04cc7c368af2dace690df4912c6fbac1cca4c13965a8d0bde29c",
+  "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
+  "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
+  "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
+  "index.html": "85ee9fab0f556f8d74a9c0d145a35609ae3c0e42dfd5371dc100c367dd8a4ce5",
+  "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
+  "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
+  "style.css": "4cde184eaaebe7b63a7b47ed90c4103a3247bcf0e0dac04fd59b275c4397d771"
  }
 }
