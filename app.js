@@ -81,7 +81,7 @@ async function loadChapter(chapter,initialSeif,expand=false,push=false){
   $('#searchLabel').textContent=`Поиск по всей главе ${data.chapter}`;
   $('#commentChapterLabel').textContent=`МИШНА БРУРА · ГЛАВА ${data.chapter}`;
   $('#allRangeLabel').textContent=`Вся глава ${data.chapter} · ${data.seifim.length} ${plural(data.seifim.length,'пункт','пункта','пунктов')}`;
-  document.title=`Мишна Брура со сносками Ялкут Йосеф · ${data.chapter}`;
+  document.title=`Ялкут Йосеф и Мишна Брура · ${data.chapter}`;
   document.querySelectorAll('[data-chapter]').forEach(b=>{const yes=Number(b.dataset.chapter)===data.chapter;b.classList.toggle('selected',yes);b.setAttribute('aria-pressed',String(yes))});
   $('.seif-nav').innerHTML=data.seifim.map(s=>`<button data-select="${s.n}"><span lang="he">${s.he}</span>Пункт ${s.n}<small>${escapeHTML(s.topic)}</small></button>`).join('');
   document.querySelector(`[data-chapter="${data.chapter}"]`).after($('#seifNav'));
@@ -169,7 +169,7 @@ async function init(){try{
   const oldLang=getSaved('mb-print-lang');const savedLaw=getSaved('mb-print-he-law'),savedComm=getSaved('mb-print-he-comm');$('#printHeLaw').checked=savedLaw!==null?savedLaw==='1':oldLang==='he';$('#printHeComm').checked=savedComm!==null?savedComm==='1':oldLang==='he';
   $('#printHeLaw').onchange=e=>save('mb-print-he-law',e.target.checked?'1':'0');$('#printHeComm').onchange=e=>save('mb-print-he-comm',e.target.checked?'1':'0');
   const startPrint=pdf=>{makePrint();const oldTitle=document.title;const suffix=printHeLaw()&&printHeComm()?'с ивритом':printHeLaw()?'иврит: Шулхан Арух и Рамо':printHeComm()?'иврит: Мишна Брура и Биур Ѓалаха':'без иврита';const range=$('input[name="range"]:checked')?.value==='current'?` пункт ${selected}`:'';document.title=`Мишна Брура — глава ${data.chapter}${range} (${suffix})`;$('#exportDialog').close();if(pdf)notify('В окне печати выберите «Сохранить как PDF»');setTimeout(()=>{window.print()},pdf?600:0)};
-  window.addEventListener('afterprint',()=>{if(data)document.title=`Мишна Брура со сносками Ялкут Йосеф · ${data.chapter}`});
+  window.addEventListener('afterprint',()=>{if(data)document.title=`Ялкут Йосеф и Мишна Брура · ${data.chapter}`});
   $('#printBtn').onclick=()=>startPrint(false);
   $('#pdfBtn').onclick=()=>startPrint(true);
   window.addEventListener('beforeprint',makePrint);
