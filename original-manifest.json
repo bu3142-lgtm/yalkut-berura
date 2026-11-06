@@ -1,7 +1,7 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "89a630881eeed0ccc7e16ebe18825c85d0054635",
- "original_commit_date": "2026-11-06T08:37:26+02:00",
+ "original_commit": "07303555476d2ef601709ec8929c8d27a7ed63e4",
+ "original_commit_date": "2026-11-06T08:53:50+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
   "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
@@ -116,7 +116,7 @@
   "content24.json": "80a28b14bb7a4dfa1c1274b6ee764034d1d52fb2b8a2f28dccdd52c8b92f3d05",
   "content242.json": "c1f3f32f89e473bf955b1e71a679cb229c14d44c8d9357b62adb88acbbe093cc",
   "content243.json": "302704bce316f0e91631f5fb2415550b24a7bdd315d3140d335dd4e326488434",
-  "content244.json": "0903410287869e437172f927792b1ba75e48774116d50119b979a5efed8d3042",
+  "content244.json": "ba82d321dd460e27ae988e3811a1cca8f02b40adbf0f32c95e379874d690eb5d",
   "content245.json": "a294e6685df4f7a6ea389fb9d31e6c89989210e3e28df1991d81cb1aa5cf0dd9",
   "content246.json": "13869bb0c8de4defce68c07ef9f91312169aae7747c24a6d24c29f4d32dcd0da",
   "content247.json": "f843a5b0b72d3d4e731c05d373656acf4444c9921c86e11291032d4066923b0d",
