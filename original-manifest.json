@@ -1,7 +1,7 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "046f62061f30a7442efcc60f290e75ef784dc171",
- "original_commit_date": "2026-11-06T11:45:29+02:00",
+ "original_commit": "da3c389e43494fc7572d71fd6e3d6a778f9c0f03",
+ "original_commit_date": "2026-11-06T15:04:11+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
   "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
@@ -281,6 +281,7 @@
  },
  "code": {
   "app.js": "efad3b0fc4e14b07d868da34f4c1c44010eb35ee161240f3dda6887e4d34bb49",
+  "donate.js": "192c6b17dead60f2d8d291c4f4a97d7e3c3337c0cb38960f13a6a52f8e4a7083",
   "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
   "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
   "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
@@ -288,9 +289,9 @@
   "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
   "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
   "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
-  "index.html": "192d9e8860714f563eea2526bf1b062ee691ef15a09e6cc08964b42b07f4eae5",
+  "index.html": "1351bcc2e4f655e75e848223994922837f0aecda78429b58d56af6f0d6d0bf96",
   "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
   "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
-  "style.css": "4cde184eaaebe7b63a7b47ed90c4103a3247bcf0e0dac04fd59b275c4397d771"
+  "style.css": "394418381fb4532c009ecebe83f1a13583b13bc7c23a85ccb793a102263b8603"
  }
 }
