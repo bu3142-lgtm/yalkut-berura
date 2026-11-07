@@ -1,7 +1,7 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "da3c389e43494fc7572d71fd6e3d6a778f9c0f03",
- "original_commit_date": "2026-11-06T15:04:11+02:00",
+ "original_commit": "720969fcab3cb001ff1acdb8e5f277a5178c817f",
+ "original_commit_date": "2026-11-07T18:11:29+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
   "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
@@ -280,18 +280,23 @@
   "content99.json": "9df6259281b22695fd07476922fa72f0bdab3d5c943fe012acd6099bed319d6e"
  },
  "code": {
-  "app.js": "efad3b0fc4e14b07d868da34f4c1c44010eb35ee161240f3dda6887e4d34bb49",
+  "app.js": "84ae1e0ed231a045d30b329a4ff049e795775a4621dd690fe482ce21a843875e",
   "donate.js": "192c6b17dead60f2d8d291c4f4a97d7e3c3337c0cb38960f13a6a52f8e4a7083",
   "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
   "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+  "golos/apps-script/Code.gs": "6035b3981f3b8870c81324d137873698327beeed3f5ea54291fe6c6c4911a0e0",
+  "golos/index.html": "e479642475342bce40fac3375b5b00a651e9dbbd0739f83204c3f193c86aefe4",
+  "golos/make.py": "7779bb9875cd60cb664a7ea8965cbca2eb65f72e56844251ba9dc6f3bfe916f7",
+  "golos/manifest.webmanifest": "0aae5a62d3d00757fdb92e4b6271cb1627bda053e8948b839886946c7aef9529",
   "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
   "hyphenation/LICENSE.txt": "86f5a582d84b04cc7c368af2dace690df4912c6fbac1cca4c13965a8d0bde29c",
   "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
   "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
   "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
-  "index.html": "1351bcc2e4f655e75e848223994922837f0aecda78429b58d56af6f0d6d0bf96",
+  "index.html": "8a51b03fe20da547652399b9001ab5bef01993f8033d807cf5b5e4db3a26c0ec",
   "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
   "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
-  "style.css": "394418381fb4532c009ecebe83f1a13583b13bc7c23a85ccb793a102263b8603"
+  "style.css": "8663e2c7b0a1f5479c5387cb65ea6632fbe2cc46910740d9b4fe23133f7a2f79",
+  "voice.js": "c2aa4e402c5a718ce8bd4202c7ca55dac4985af4abd077bfb61062c129f03858"
  }
 }
