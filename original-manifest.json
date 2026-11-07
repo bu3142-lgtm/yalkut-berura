@@ -1,10 +1,10 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "9914b29cf0eea8c802a20d470814a3329e6acdb2",
- "original_commit_date": "2026-11-07T18:56:34+02:00",
+ "original_commit": "79b65c93dc7b95134c204d2000406b960c3d02ea",
+ "original_commit_date": "2026-11-07T19:31:22+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
-  "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
+  "content1.json": "28c96a1ee99fb00bb589dd4b817ae266b9be37e0d59b8efb8576160c54d61c13",
   "content10.json": "5235a8f30b6bdb5d2e045d770af1293e47fd3c083bfeef18f42cd2004c494b81",
   "content100.json": "6b4a40e064e0b9de6b15a9b805c662e599776100cb8a842646559c41efc2f4b6",
   "content101.json": "58a885d44676a92b7e4e39799f797c7dd5fd21423e5e857ec5d0170880151f21",
@@ -285,7 +285,7 @@
   "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
   "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
   "golos/apps-script/Code.gs": "6035b3981f3b8870c81324d137873698327beeed3f5ea54291fe6c6c4911a0e0",
-  "golos/index.html": "474dd6ae1b99b61a52c21b12627f88baa41cd65177b526ffea32a8d88840e948",
+  "golos/index.html": "81cbea0b2ce49ffb1ca677f4c037fcaf2b0b1ef8d80f541c61a476e07226ba46",
   "golos/make.py": "7779bb9875cd60cb664a7ea8965cbca2eb65f72e56844251ba9dc6f3bfe916f7",
   "golos/manifest.webmanifest": "0aae5a62d3d00757fdb92e4b6271cb1627bda053e8948b839886946c7aef9529",
   "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
@@ -293,10 +293,10 @@
   "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
   "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
   "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
-  "index.html": "292eaffe3d29bdefdfad78333f02b7621c4c0030235ee142090151c40e45e291",
+  "index.html": "8863a7154f45ea0f3351051bd9b029f929ab0b0c4b760c334d6b87dc9d8d00da",
   "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
   "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
   "style.css": "f1217a5d8dfda7de0de7396d1dbd92e36da8458e4fea3578558ed395c2f76949",
-  "voice.js": "0f00e4a7a41e4d5df5440848f5d67c309c15d1be37702f589309876722d24c68"
+  "voice.js": "6401d11ca3df2412e2e8e38bdf95167323721649fd275da33e5b80c935441eb5"
  }
 }
