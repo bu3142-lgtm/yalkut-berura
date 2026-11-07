@@ -1,7 +1,7 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "720969fcab3cb001ff1acdb8e5f277a5178c817f",
- "original_commit_date": "2026-11-07T18:11:29+02:00",
+ "original_commit": "9914b29cf0eea8c802a20d470814a3329e6acdb2",
+ "original_commit_date": "2026-11-07T18:56:34+02:00",
  "files": {
   "content.json": "934bbf2b988e0679099bbcc0cebe33dc9d8b440424660cf72986889475b830cf",
   "content1.json": "32f27b1f0bb6f44be293b44d7011c42b0dd5c7ef008eca15bad1238f60d258ad",
@@ -231,7 +231,7 @@
   "content57.json": "21ee2b0992dc7149609ac82f07b68ba19a3adc7bc544d796eca3549ca464f859",
   "content58.json": "7da9febcc91114c5732334652e7c7abb3cbc6257d396a19444c648eb04691d03",
   "content59.json": "8d5ae7542a98f17639d02dca221d0eb0d0612866d4404575b5097cba8dfcfb52",
-  "content6.json": "4a31cf2d6d4290ae6cf81a210761f0a078dd1d06b33e56af196d5a266d5d012b",
+  "content6.json": "a214c598f4716ec66204856e6e3e577614ddb484e143e68cd5adbfe01dda5b0f",
   "content60.json": "8134c7207868eb121a96d367cf093522bae5bd26fff95e91e5f68922ae540800",
   "content61.json": "92227f665285bccb2e9973cbff6b79d409d8667dbaaa5b09156c1953bef086f8",
   "content62.json": "718bcee2251476cfb6eca4b40d547bfe75424595520c175ba6a8f9f8843d15c8",
@@ -280,12 +280,12 @@
   "content99.json": "9df6259281b22695fd07476922fa72f0bdab3d5c943fe012acd6099bed319d6e"
  },
  "code": {
-  "app.js": "84ae1e0ed231a045d30b329a4ff049e795775a4621dd690fe482ce21a843875e",
+  "app.js": "3929bf7ddecd92b4fd2a121a26b4f170de964e12f291ae1c79131cc777b3f278",
   "donate.js": "192c6b17dead60f2d8d291c4f4a97d7e3c3337c0cb38960f13a6a52f8e4a7083",
   "fonts/sans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
   "fonts/serif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
   "golos/apps-script/Code.gs": "6035b3981f3b8870c81324d137873698327beeed3f5ea54291fe6c6c4911a0e0",
-  "golos/index.html": "e479642475342bce40fac3375b5b00a651e9dbbd0739f83204c3f193c86aefe4",
+  "golos/index.html": "474dd6ae1b99b61a52c21b12627f88baa41cd65177b526ffea32a8d88840e948",
   "golos/make.py": "7779bb9875cd60cb664a7ea8965cbca2eb65f72e56844251ba9dc6f3bfe916f7",
   "golos/manifest.webmanifest": "0aae5a62d3d00757fdb92e4b6271cb1627bda053e8948b839886946c7aef9529",
   "home-bg.jpg": "788bdf027e787e1810a9eef14bcb00d606c9ba5fcbded8475efc8b8cc9700131",
@@ -293,10 +293,10 @@
   "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
   "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
   "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
-  "index.html": "8a51b03fe20da547652399b9001ab5bef01993f8033d807cf5b5e4db3a26c0ec",
+  "index.html": "292eaffe3d29bdefdfad78333f02b7621c4c0030235ee142090151c40e45e291",
   "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
   "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
-  "style.css": "8663e2c7b0a1f5479c5387cb65ea6632fbe2cc46910740d9b4fe23133f7a2f79",
-  "voice.js": "c2aa4e402c5a718ce8bd4202c7ca55dac4985af4abd077bfb61062c129f03858"
+  "style.css": "f1217a5d8dfda7de0de7396d1dbd92e36da8458e4fea3578558ed395c2f76949",
+  "voice.js": "0f00e4a7a41e4d5df5440848f5d67c309c15d1be37702f589309876722d24c68"
  }
 }
