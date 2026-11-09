@@ -3,9 +3,12 @@
 Главы и меню перенесены автоматически, но в оригинале изменились эти файлы (они сюда НЕ перенесены):
 
 - app.js
-- fig36-lamed.png
-- fig36-mem.png
-- fig36-memsofit.png
+- fig36-ayin.png
+- fig36-nun.png
+- fig36-nunsofit.png
+- fig36-pe.png
+- fig36-pesofit.png
+- fig36-samekh.png
 - index.html
 
 Напишите Claude «обнови» — он аккуратно перенесёт изменения, не повредив слой «Ялкут Йосеф».
