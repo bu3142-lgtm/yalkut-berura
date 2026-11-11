@@ -101,3 +101,9 @@ button.yn sup{font:600 .55em UISans,Arial,sans-serif;color:var(--sage);margin-le
 .sidebar:not(.open){visibility:hidden;transition:transform .2s,visibility 0s .2s}
 .sidebar.open{visibility:visible;transition:transform .2s}
 }
+/* Мобильные: шапка всегда сверху, левое меню и затемнение начинаются под ней */
+@media(max-width:850px){
+.topbar{position:sticky;top:0;z-index:30;background:var(--bg)}
+.sidebar{top:57px;height:calc(100vh - 57px);height:calc(100dvh - 57px);padding-top:22px;z-index:25}
+.shade:not([hidden]){top:57px;z-index:24}
+}
