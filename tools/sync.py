@@ -47,6 +47,18 @@ s_idx = s_idx[:sa] + o_idx[a:b] + s_idx[sb:]
 assert CF.search(s_app) and PH.search(s_app)
 s_app = CF.sub(lambda m: cf_m.group(0), s_app, count=1)
 s_app = PH.sub(lambda m: ph_m.group(0), s_app, count=1)
+# --- исправление названий в меню: если в оригинале вместо названия попал текст закона ({{א}}-метки или слишком длинная строка),
+#     берём название из файла главы (оригинал не меняем)
+def fix_menu_titles(h):
+    def rep(m):
+        n, label, small = int(m.group(1)), m.group(2), m.group(3)
+        if '{{' not in label and len(label) <= 200: return m.group(0)
+        f = chap.get(n)
+        if not f: return m.group(0)
+        t = json.load(open(f'{SITE}/{f}', encoding='utf-8')).get('title', '').strip()
+        return m.group(0) if not t else m.group(0).replace(label, t.replace('&', '&amp;').replace('<', '&lt;'), 1)
+    return re.sub(r'<button class="chapter-nav" data-chapter="(\d+)"[^>]*><span>\d+</span><span>(.*?)(<small[^>]*>.*?</small>)?</span></button>', rep, h, flags=re.S)
+s_idx = fix_menu_titles(s_idx)
 wr(f'{SITE}/index.html', s_idx); wr(f'{SITE}/app.js', s_app)
 # --- контроль остального кода оригинала
 code = {}
