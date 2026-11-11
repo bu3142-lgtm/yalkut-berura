@@ -94,3 +94,10 @@ button.yn sup{font:600 .55em UISans,Arial,sans-serif;color:var(--sage);margin-le
 .home-cover img{display:block;width:100%;height:100%;object-fit:cover}
 @media(max-width:850px){.home-portrait.home-cover{height:calc(100dvh - 85px);aspect-ratio:auto;width:100%;min-height:0}.home-cover img{object-position:center}}
 @media(max-width:550px){.home-page{padding:0}.home-portrait.home-cover{height:calc(100dvh - 57px);border-radius:0;box-shadow:none}}
+/* iPhone Safari: меню не должно прятаться под нижней панелью браузера */
+@media(max-width:850px){
+.sidebar{height:100vh;height:100dvh;bottom:auto;padding-top:calc(22px + env(safe-area-inset-top,0px));padding-bottom:calc(120px + env(safe-area-inset-bottom,0px));-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+.sidebar .side-bottom{padding-bottom:12px}
+.sidebar:not(.open){visibility:hidden;transition:transform .2s,visibility 0s .2s}
+.sidebar.open{visibility:visible;transition:transform .2s}
+}
