@@ -1,7 +1,7 @@
 {
  "original_repo": "bu3142-lgtm/mishna-berura",
- "original_commit": "4892f3d6b23ae11b567dd5841fc7ebc6bde6950a",
- "original_commit_date": "2026-11-11T11:55:41+02:00",
+ "original_commit": "24caa06e848a07b20f51e56e62837ac7f65597f3",
+ "original_commit_date": "2026-11-12T06:36:15+02:00",
  "files": {
   "content.json": "0fbe323f0897cada71f4698d4196cc920fa7d45fd78cbb5cf582c636d7b4d6ab",
   "content1.json": "1e125a07519b498f6971c74093a08695c11c2b5a7971a0cb76052e132187b90e",
@@ -328,7 +328,9 @@
   "content513.json": "56163a34971f0b5a41a05cc39383fc14325e854f347c4877973579aa4fc4230b",
   "content514.json": "9f1d350c51121d2d5dbffc73fc70b5a21c15387149a27bca265b12c846159d6a",
   "content515.json": "928740ce29eb164f3b81961194909cd1bb0def64386d190b61855930b677a1fb",
+  "content518.json": "690736a90ae670405488884561986e4bd5588f21c83dc92a667f9c76ae640028",
   "content52.json": "e25fd7467f9528dfbee7e7a56ab4130ce667b31f0050484edc1e64bcd22cad06",
+  "content527.json": "7f36467a79ed9ecaabf82da18eafd90f7dc81e5b4a6775dedd91bbf1bd0af874",
   "content53.json": "4d5db94c404329ea5b8e3aaa7752b84972e37e49c9e1fc9f61a2d4cf67047b2d",
   "content54.json": "996b296ffcf72cef60372db657703a575db16e39125c9185cc1e4058614f3618",
   "content549.json": "9cf5133c424a3679f7b3a9d24884e0a452534fd1630cedbe23e2a5552adeb9b2",
@@ -464,7 +466,7 @@
   "hyphenation/NOTICE.txt": "7dd5e191677643f1ca725257f5f8a809c9b6fa62af01a3cf7a43ec9d509601bd",
   "hyphenation/hyph-ru.pat.txt": "f54944aebc8f36ce32df5312b999730a1686d6802bbac232944befd99c660247",
   "icon.svg": "de051a5a2f0b17384e713debc3e85c56df3c663c54669afc8db3e08012594d15",
-  "index.html": "9f3916829f2b465d4b1befae64822d14d37b2467d1c874e57020355145a26b56",
+  "index.html": "f519ac6933d70a94cc1fc53253cac3493527d8a17ae944b7222a42ba6479d7ec",
   "manifest.webmanifest": "e45739c5112c75bf2ae5e10943cd1b03868e7a389dec28b559591c1cac6616ad",
   "ru-hyphenation.js": "65feb2df77ef8f67398cff77c6a6afe4491537f65a1e32829646734a36b87473",
   "style.css": "a4ddb90ae0ff6e7c2400452bf15d4826c78168d0aefc4dc1fceb9e31b7eb6741",
